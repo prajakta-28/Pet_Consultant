@@ -1,0 +1,3 @@
+DB-Url=jdbc:mysql://localhost:3306/pet_consultant
+UserName=root
+Password=root
