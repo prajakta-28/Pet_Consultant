@@ -18,7 +18,7 @@ public class DeleteOrder extends BaseClass {
 		.delete("/productorders/16")
 		
 		.then()
-		.assertThat().statusCode(500)
+		.assertThat().statusCode(200)
 		.log().all();
 	
 	}
